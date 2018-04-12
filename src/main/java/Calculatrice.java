@@ -1,25 +1,25 @@
 
 public class Calculatrice {
-	int nombre1, nombre2;
+	float nombre1, nombre2;
 	
-	public Calculatrice(int n1, int n2){
+	public Calculatrice(float n1, float n2){
 		this.nombre1=n1;
 		this.nombre2=n2;
 	}
 	
-	public int	additioner() {
+	public float	additioner() {
 		return nombre1+nombre2;
 	}
 	
-	public int	soustraire() {
+	public float	soustraire() {
 		return nombre1-nombre2;
 	}
 	
-	public int	multiplier() {
+	public float	multiplier() {
 		return nombre1*nombre2;
 	}
 	
-	public int	diviser() {
+	public float	diviser() {
 		return nombre1/nombre2;
 	}
 }
