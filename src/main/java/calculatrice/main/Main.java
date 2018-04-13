@@ -10,7 +10,7 @@ public class Main {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		// On rentre l'opération et on fait les tests
+		/**On rentre l'opération et on fait les tests*/
 		do
 		{
 			System.out.println("Veuillez saisir un premier nombre");
@@ -35,7 +35,7 @@ public class Main {
 		
 		Calculatrice calculatrice = new Calculatrice(x,y);
 		
-		//On réalise le calcul
+		/**On réalise le calcul*/
 		if(operateur.equals("+")) {
 			result = calculatrice.additioner();
 		}
