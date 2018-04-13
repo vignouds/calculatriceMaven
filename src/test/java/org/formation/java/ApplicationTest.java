@@ -16,8 +16,18 @@ public class ApplicationTest extends TestCase {
 	}
 	
 	public void testSoustraire() {
-		Calculatrice calc = new Calculatrice(3,1);
-		assertTrue(calc.soustraire() == 2);
+		Calculatrice calc = new Calculatrice(0,1);
+		assertTrue(calc.soustraire() == -1);
+	}
+	
+	public void testMultiplier() {
+		Calculatrice calc = new Calculatrice(4,-5);
+		assertTrue(calc.multiplier() == -20);
+	}
+	
+	public void testDiviser() {
+		Calculatrice calc = new Calculatrice(10,4);
+		assertTrue(calc.diviser() == 2.5);
 	}
 	
 }
