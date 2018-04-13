@@ -1,3 +1,4 @@
+package calculatrice.main;
 
 public class Calculatrice {
 	float nombre1, nombre2;

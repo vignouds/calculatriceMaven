@@ -1,3 +1,4 @@
+package calculatrice.main;
 import java.util.Scanner;
 import org.apache.commons.lang3.StringUtils;
 public class Main {
